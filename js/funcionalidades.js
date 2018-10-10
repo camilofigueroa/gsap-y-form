@@ -7,9 +7,10 @@
 
 window.onload = function()
 {
-    var contenedor1 = document.getElementById( "contenedor-texto" );
+    var texto1 = document.getElementById( "texto-nombre" );
 
-    TweenMax.to( contenedor1, 10, { left: "100px" } );
+    //Aquí se implementa una demora.
+    TweenMax.to( texto1, 3, { left: "100px", delay: 2 } );
 
 }
 
